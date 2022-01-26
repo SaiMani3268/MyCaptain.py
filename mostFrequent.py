@@ -10,8 +10,8 @@ def most_frequent(string):
        else:
            d[key] = d[key] + 1
    print("String in dictionary with frequency values is:\n",d)
-   sort_d = sorted(d.items(),key = operator.itemgetter(1),reverse =                    True)
-   print("Sorted descending order w.r.t frequency is:\n", sort_d)
+   sort_d = sorted(d.items(),key = operator.itemgetter(1),reverse = True)
+   print("Sorted descending order w.r.t frequency is:\n",sort_d)
 most_frequent('mississippi')
 
 #OUTPUT:
